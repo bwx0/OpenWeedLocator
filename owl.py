@@ -290,8 +290,8 @@ class Owl:
         # is the source a directory/file
         if len(self.config.get('System', 'input_file_or_directory')) > 0:
             self.input_file_or_directory = self.config.get('System', 'input_file_or_directory')
-
-        self.input_file_or_directory = input_file_or_directory
+        else:
+            self.input_file_or_directory = input_file_or_directory
 
         if len(self.config.get('System', 'input_file_or_directory')) > 0 and input_file_or_directory is not None:
             self.logger.warning('[WARNING] two paths to image/videos provided. Defaulting to the command line flag.')
@@ -370,7 +370,16 @@ class Owl:
                 confidence = self.config.getfloat('GreenOnGreen', 'confidence')
 
                 weed_detector = GreenOnGreen(model_path=model_path)
+            elif algorithm == 'yolov8roi':
+                from utils.greenongreen_yolo import GreenOnGreenYOLO
+                model_path = self.config.get('YOLOROI', 'model_path')
+                confidence = self.config.getfloat('YOLOROI', 'confidence')
+                crop_labels = self.config.get('YOLOROI', 'crop_labels')
+                imgsz = self.config.get('YOLOROI', 'imgsz')
+                show_ROIs = self.config.getboolean('YOLOROI', 'show_ROIs', fallback=False)
 
+                weed_detector = GreenOnGreenYOLO(model_path=model_path, confidence=confidence, crop_labels=crop_labels,
+                                                 imgsz=imgsz, show_ROIs=show_ROIs)
             else:
                 min_detection_area = self.config.getint('GreenOnBrown', 'min_detection_area')
                 invert_hue = self.config.getboolean('GreenOnBrown', 'invert_hue')
@@ -430,6 +439,10 @@ class Owl:
                             frame,
                             confidence=confidence,
                             filter_id=63
+                        )
+                    elif algorithm == 'yolov8roi':
+                        cnts, boxes, weed_centres, image_out = weed_detector.inference(
+                            frame
                         )
                     else:
                         cnts, boxes, weed_centres, image_out = weed_detector.inference(
@@ -675,7 +688,8 @@ if __name__ == "__main__":
 
     # this is where you can change the config file default
     owl = Owl(
-        config_file='config/DAY_SENSITIVITY_2.ini',
+        # config_file='config/DAY_SENSITIVITY_2.ini',
+        config_file='config/YOLOV8_ROI.ini',
         show_display=args.show_display,
         focus=args.focus,
         input_file_or_directory=args.input

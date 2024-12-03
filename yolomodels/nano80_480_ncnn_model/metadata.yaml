@@ -1,0 +1,17 @@
+description: Ultralytics nano80_480 model trained on ../dataset/test3_final/data.yaml
+author: Ultralytics
+date: '2024-12-03T17:36:05.947662'
+version: 8.2.13
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 480
+- 480
+names:
+  0: Weed_Crop_thin_star
+  1: Weed_small
+  2: Barley
+  3: Weed_weed

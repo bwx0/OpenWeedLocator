@@ -1,0 +1,168 @@
+2024-12-03 17:28:46,393 - INFO - Starting OWL - checking imports...
+2024-12-03 17:28:46,544 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:28:46,568 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:28:46,631 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 17:28:46,638", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:28:46,638", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:28:46,639", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:28:46,640", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:28:46,641", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 17:28:46,642", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:28:46,657", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 17:28:46,658", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:28:46,660", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 17:28:46,672", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:28:46,673", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:28:47,682", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:28:47,682", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:28:47,683", "level": "ERROR", "logger": "utils.frame_reader", "message": "Path must be a directory or a file", "module": "frame_reader", "function": "__init__"}
+2024-12-03 17:29:36,646 - INFO - Starting OWL - checking imports...
+2024-12-03 17:29:36,758 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:29:36,765 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:29:36,779 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 17:29:36,781", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:29:36,782", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:29:36,782", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:29:36,783", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:29:36,783", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 17:29:36,783", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:29:36,790", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 17:29:36,791", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:29:36,793", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 17:29:36,800", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:29:36,801", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:29:37,808", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:29:37,809", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:29:37,968", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:29:42,661", "level": "ERROR", "logger": "__main__", "message": "\n\u001b[1m\u001b[91mAlgorithm Error: Unrecognized algorithm error\u001b[0m\n\u001b[93mError ID: OWL_20241203_172942\u001b[0m\n\n\u001b[92mAlgorithm:\u001b[0m\nFailed to initialize algorithm: \u001b[1m\u001b[97myolov8roi\u001b[0m\n\n\u001b[92mDetails:\u001b[0m\nNo option 'imgsz' in section: 'YOLOROI'\nOriginal error: \u001b[97mNo option 'imgsz' in section: 'YOLOROI'\u001b[0m\n\n\u001b[92mFix:\u001b[0m\nCheck the error message and logs for more information\n", "module": "error_manager", "function": "handle"}
+2024-12-03 17:30:13,971 - INFO - Starting OWL - checking imports...
+2024-12-03 17:30:14,086 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:30:14,093 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:30:14,108 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 17:30:14,112", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:30:14,113", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:30:14,113", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:30:14,114", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:30:14,114", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 17:30:14,115", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:30:14,123", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 17:30:14,123", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:30:14,125", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 17:30:14,134", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:30:14,134", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:30:15,140", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:30:15,141", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:30:15,260", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:30:19,680", "level": "ERROR", "logger": "__main__", "message": "\n\u001b[1m\u001b[91mAlgorithm Error: Model files not found\u001b[0m\n\u001b[93mError ID: OWL_20241203_173019\u001b[0m\n\n\u001b[92mAlgorithm:\u001b[0m\nFailed to initialize algorithm: \u001b[1m\u001b[97myolov8roi\u001b[0m\n\n\u001b[92mDetails:\u001b[0m\nRequired model files are missing from the 'models' directory\nOriginal error: \u001b[97m'yolomodels/nano80_ncnn_model' does not exist\u001b[0m\n\n\u001b[92mFix:\u001b[0m\nEnsure model files are present in the 'models' directory\n", "module": "error_manager", "function": "handle"}
+2024-12-03 17:32:36,446 - INFO - Starting OWL - checking imports...
+2024-12-03 17:32:36,554 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:32:36,560 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:32:36,574 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 17:32:36,577", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:32:36,578", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:32:36,578", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:32:36,579", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:32:36,579", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 17:32:36,580", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:32:36,587", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 17:32:36,588", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:32:36,590", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 17:32:36,599", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:32:36,600", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:32:37,603", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:32:37,604", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:32:37,734", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:32:48,565", "level": "INFO", "logger": "__main__", "message": "[INFO] Stopped.", "module": "owl", "function": "hoot"}
+2024-12-03 17:33:03,817 - INFO - Starting OWL - checking imports...
+2024-12-03 17:33:03,924 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:33:03,930 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 17:33:03,944 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 17:33:03,947", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:33:03,947", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:33:03,948", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:33:03,948", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:33:03,949", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 17:33:03,949", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:33:03,957", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 17:33:03,958", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 17:33:03,960", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 17:33:03,968", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:33:04,148", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:33:05,163", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 17:33:05,164", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 17:33:05,281", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+2024-12-03 18:05:12,819 - INFO - Starting OWL - checking imports...
+2024-12-03 18:05:12,930 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:05:12,937 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:05:12,952 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 18:05:12,955", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:12,956", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:12,956", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:12,957", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:12,957", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 18:05:12,958", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:12,965", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 18:05:12,965", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:12,967", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 18:05:12,977", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:13,169", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:14,183", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:14,183", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:14,300", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:26,279", "level": "INFO", "logger": "__main__", "message": "[INFO] Stopped.", "module": "owl", "function": "hoot"}
+2024-12-03 18:05:29,981 - INFO - Starting OWL - checking imports...
+2024-12-03 18:05:30,096 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:05:30,103 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:05:30,117 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 18:05:30,119", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:30,120", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:30,120", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:30,121", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:30,121", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 18:05:30,122", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:30,129", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 18:05:30,130", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:05:30,132", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 18:05:30,141", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:30,298", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:31,309", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:31,310", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:31,429", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:05:40,749", "level": "INFO", "logger": "__main__", "message": "[INFO] Stopped.", "module": "owl", "function": "hoot"}
+2024-12-03 18:06:03,315 - INFO - Starting OWL - checking imports...
+2024-12-03 18:06:03,624 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:06:03,630 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:06:03,648 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 18:06:03,651", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:03,652", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:03,652", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:03,653", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:03,653", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 18:06:03,654", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:03,661", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 18:06:03,662", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:03,664", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 18:06:03,672", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:03,901", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:04,906", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:04,906", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:05,033", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+2024-12-03 18:06:24,394 - INFO - Starting OWL - checking imports...
+2024-12-03 18:06:24,503 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:06:24,510 - WARNING - The system is running on a Windows platform. GPIO disabled. Test mode active.
+2024-12-03 18:06:24,523 - INFO - All required modules imported successfully
+{"timestamp": "2024-12-03 18:06:24,525", "level": "INFO", "logger": "__main__", "message": "Initializing OWL...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:24,526", "level": "INFO", "logger": "__main__", "message": "Starting OWL version 2.1.0", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:24,527", "level": "INFO", "logger": "__main__", "message": "System Information: OS: Windows 10, Machine: AMD64", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:24,527", "level": "INFO", "logger": "__main__", "message": "Python Version: 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)], Implementation: CPython, Compiler: MSC v.1929 64 bit (AMD64)", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:24,528", "level": "WARNING", "logger": "SystemInfo", "message": "Raspberry Pi information not found.", "module": "version", "function": "get_rpi_info"}
+{"timestamp": "2024-12-03 18:06:24,528", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi hardware info not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:24,535", "level": "WARNING", "logger": "SystemInfo", "message": "Git information could not be retrieved: [WinError 2] The system cannot find the file specified", "module": "version", "function": "get_git_info"}
+{"timestamp": "2024-12-03 18:06:24,536", "level": "INFO", "logger": "__main__", "message": "Git information not available.", "module": "owl", "function": "_log_system_info"}
+{"timestamp": "2024-12-03 18:06:24,537", "level": "INFO", "logger": "utils.config_manager", "message": "Successfully loaded and validated config: C:\\Users\\bi\\Desktop\\MPE\\1\\OWL-modified\\config\\YOLOV8_ROI.ini", "module": "config_manager", "function": "load_and_validate_config"}
+{"timestamp": "2024-12-03 18:06:24,546", "level": "INFO", "logger": "__main__", "message": "Raspberry Pi version: non-rpi", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:24,705", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Setting up nozzles...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:25,721", "level": "INFO", "logger": "utils.output_manager", "message": "[INFO] Nozzle setup complete. Initiating camera...", "module": "output_manager", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:25,722", "level": "WARNING", "logger": "__main__", "message": "High resolution, expect low framerate. Resolution set to 1920x1080.", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:25,839", "level": "INFO", "logger": "__main__", "message": "[INFO] Using video from ../d2.mp4...", "module": "owl", "function": "__init__"}
+{"timestamp": "2024-12-03 18:06:40,451", "level": "INFO", "logger": "__main__", "message": "[INFO] Stopped.", "module": "owl", "function": "hoot"}
