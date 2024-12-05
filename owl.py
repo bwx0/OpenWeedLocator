@@ -154,6 +154,11 @@ class Owl:
                            self.config.getint('Camera', 'resolution_height'))
         self.exp_compensation = self.config.getint('Camera', 'exp_compensation')
 
+        if len(self.config.get('Camera', 'camera_index')) > 0:
+            self.camera_index = int(self.config.get('Camera', 'camera_index'))
+        else:
+            self.camera_index = 0
+
         # Relay Dict maps the reference relay number to a boardpin on the embedded device
         self.relay_dict = {}
 
@@ -306,7 +311,7 @@ class Owl:
         # if no video, start the camera with the provided parameters
         else:
             try:
-                self.cam = VideoStream(resolution=self.resolution,
+                self.cam = VideoStream(src=self.camera_index, resolution=self.resolution,
                                        exp_compensation=self.exp_compensation)
                 self.cam.start()
 
